@@ -1,5 +1,6 @@
 package s07150712.gdmec.edu.cn.mymediaplayer;
 
+
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -132,7 +133,7 @@ public class MyFileActivity extends Activity {
         finish();
     }
     class FileListAdapter extends BaseAdapter{
-     private Vector<String> items=null;
+        private Vector<String> items=null;
         private MyFileActivity myFile;
         public FileListAdapter(MyFileActivity myFile, Vector<String> items) {
             this.items=items;
